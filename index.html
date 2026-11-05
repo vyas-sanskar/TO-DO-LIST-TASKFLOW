@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow | Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="todo-app">
+
+        <header class="header">
+            <div>
+                <p class="subtitle">YOUR PERSONAL WORKSPACE</p>
+                <h1>TaskFlow<span>.</span></h1>
+                <p class="description">Stay focused. Get things done.</p>
+            </div>
+            <div class="task-icon">✓</div>
+        </header>
+
+        <div class="get-task">
+            <input
+                id="inp"
+                type="text"
+                placeholder="What needs to be done?"
+            >
+            <button id="addBtn">+ Add Task</button>
+        </div>
+
+        <div class="task-heading">
+            <h2>My Tasks</h2>
+            <span class="task-count">YOUR DAY</span>
+        </div>
+
+        <div class="list-container">
+            <!-- Tasks will be added here using JavaScript -->
+        </div>
+
+        <footer>
+            <p>Small steps. Big progress.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
